@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+div.main {
+
+    border: 10px solid #ff8000;
+    width: 760px;
+    height: 1030px;
+    padding: 10px 57px 5px 70px;
+    /* background-color: aqua;*/
+}
+
+div.nav {
+    display: flex;
+    text-align: end;
+    height: 100px;
+    width: 580px;
+    /* background-color: blue; */
+    justify-content: space-between;
+
+}
+
+div.profile-picture img {
+    height: 80px;
+    width: 90px;
+}
+
+div.nav-text {
+    padding: 10px;
+    padding-top: 20px;
+    /* margin-left: 355px; */
+    /* background-color: orange; */
+}
+
+hr {
+    background-color: black;
+    height: 6px;
+}
+
+.nav-text h1 {
+    line-height: 19px;
+
+}
+
+div.list {
+    height: 145px;
+    width: 118px;
+    display: flex;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    width: 142px;
+}
+
+div.first-list {
+    margin-left: 45px;
+}
+
+/* div.second-list {
+    /* margin-left: 85px; */
+/* background-color: red; */
+
+/* } */
+
+div.first-section {
+    width: 95%;
+    max-height: 160px;
+    /* background-color: lightgoldenrodyellow; */
+}
+
+div.second-section {
+    width: 95%;
+    /* background-color: lightblue; */
+}
+
+div.third-section {
+    width: 95%;
+    /* background-color: lightgreen; */
+}
+
+div.four-section {
+    width: 95%;
+    max-height: 160px;
+    /* background-color: lightgreen; */
+}
+
+div.five-section {
+    width: 95%;
+    /* background-color: lightgreen; */
+}
+
+div.first-item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1px;
+    margin-top: 15px;
+}
+
+div.year-item {
+    color: #fff;
+    background-color: black;
+    height: 20px;
+    width: 100px;
+    text-align: end;
+}
+
+.first-p-item {
+    margin-left: 28px;
+    padding-bottom: 15px;
+}
+
+.italic-list {
+    font-style: italic;
+
+}
+
+p.second-p-item {
+    margin-left: 47px;
+}
+
+.footer-text {
+    padding-top: 20px;
+}
